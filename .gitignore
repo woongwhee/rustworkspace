@@ -1,0 +1,10 @@
+# 빌드된 프로젝트 파일 무시
+/target
+# Cargo.lock 파일 무시 (라이브러리 프로젝트의 경우)
+# 애플리케이션 프로젝트에서는 Cargo.lock을 버전 관리에 포함시킬 것을 권장
+**/target
+/.idea/
+*/.idea/
+*.swp
+*.swo
+.DS_Store
