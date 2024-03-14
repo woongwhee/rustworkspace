@@ -73,7 +73,7 @@ fn main() {
     let a=[1,2,3,4,5];
     let b:[i32;10]=[1,1,1,1,11,1,23,4,45,1];
     println!("{}",b[0]);
-    let c=[10;c];
+    let c=[10;1];
     println!("{:?}char size",size_of::<char>());
     println!("{:?}",c);//[3,3,3,3,3];
     let mut index=String::new();

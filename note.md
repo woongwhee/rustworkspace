@@ -120,6 +120,35 @@ fn fun_if(x:i32){
 }
 ```
 
-#### String
-let s="stirng" 와같은 경우 문자열은 코드 안에 박히는 윈시값으로 취급된다.
-그렇기 때문에 참조형 String(&str)을 사용을 해야 String 에서 재공해주는 
+#### Enum
+
+러스트에서 Enum의 값들은 variants 라고한다
+
+variants에는 각기 다른 data type를 가질수있다.
+
+Enum은 struct와 마찬가지로 impl을 가질수있다.
+
+
+
+#### Option<T>
+
+null대신 사용하는 Enum 
+
+다양한 함수를 지원한다.
+
+variants로는 None과 Some<T> 가있으며 명시적으로 없는 값이 올수있다는 표현을 위해 사용되는 편이다.
+
+
+
+match 
+
+switch case와 언뜻 비슷하지만 enum과 맞이했을때 좋을기능을 재공한다.
+
+모든케이스를 명시적으로 처리해줘야된다.
+
+default처럼 나열한 값을 제외한 케이스를 처리하고싶을땐 _를 사용하면 된다.
+
+
+
+
+
