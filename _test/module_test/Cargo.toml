@@ -1,6 +1,5 @@
-workspace = { members = ["Argument"] }
 [package]
-name = "collections"
+name = "module_test"
 version = "0.1.0"
 edition = "2021"
 

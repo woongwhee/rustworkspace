@@ -4,7 +4,7 @@ use std::mem::size_of;
 fn main() {
     let mut x=5;
     println!("{x}");
-    x=5;
+    x=6;
     println!("{x}");
     const PI:f64=3.141592;
     println!("{PI}");
